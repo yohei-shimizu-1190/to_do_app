@@ -2,3 +2,4 @@
   <%= link_to to_do.title, to_do_path(to_do), method: :delete, data: {confirm: '削除しますか？'} %>
   <%= to_do.expired_at&.to_s %>
 <% end %>
+<%= javascript_pack_tag 'to_dos/index' %>
