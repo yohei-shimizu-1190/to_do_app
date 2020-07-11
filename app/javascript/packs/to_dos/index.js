@@ -10,3 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }).$mount()
   document.body.appendChild(app.$el)
 })
+
+for (i = r = 0; i < 64; r += (++i) ** 4);
+console.log(r)
